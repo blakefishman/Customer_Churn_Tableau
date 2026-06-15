@@ -10,13 +10,12 @@ t
 
 ## Project Components
 
-* t
+* The customer data was loaded into **Google BigQuery** using **Fivetran**.
 
-* t
+* The **SQL** queries used to examine the data and perform quality checks can be found here.
 
-* t
+* The **Tableau** customer churn interactive dashboard can be found here.
 
-* t
 
 
 ## Executive Summary
