@@ -6,7 +6,7 @@
 SELECT
     CustomerId,
     COUNT(*) AS duplicate_id_count
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 GROUP BY 1
 HAVING duplicate_id_count > 1
 ;
@@ -30,7 +30,7 @@ SELECT
     SUM(CASE WHEN `Satisfaction Score` IS NULL THEN 1 ELSE 0 END) AS null_count_satisfaction_score,
     SUM(CASE WHEN `Card Type` IS NULL THEN 1 ELSE 0 END) AS null_count_card_type,
     SUM(CASE WHEN `Point Earned` IS NULL THEN 1 ELSE 0 END) AS null_count_point_earned
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 ;
 
 
@@ -40,7 +40,7 @@ SELECT
     SUM(CASE WHEN State = '' THEN 1 ELSE 0 END) AS empty_count_state,
     SUM(CASE WHEN Gender = '' THEN 1 ELSE 0 END) AS empty_count_gender,
     SUM(CASE WHEN `Card Type` = '' THEN 1 ELSE 0 END) AS empty_count_card_type
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 ;
 
 
@@ -49,7 +49,7 @@ FROM `customerchurn2424.core.ChurnCore`
 SELECT
     DISTINCT State,
     COUNT(State) AS count
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 GROUP BY 1
 ORDER BY 1
 ;
@@ -57,7 +57,7 @@ ORDER BY 1
 SELECT
     DISTINCT Gender,
     COUNT(Gender) AS count
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 GROUP BY 1
 ORDER BY 1
 ;
@@ -65,7 +65,7 @@ ORDER BY 1
 SELECT
     DISTINCT `Card Type`,
     COUNT(`Card Type`) AS count
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 GROUP BY 1
 ORDER BY 1
 ;
@@ -76,7 +76,7 @@ ORDER BY 1
 SELECT
     CustomerId,
     LENGTH(SAFE_CAST(CustomerId AS string)) AS length
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 WHERE LENGTH(SAFE_CAST(CustomerId AS string)) != 8
 ;
 
@@ -89,7 +89,7 @@ SELECT
     AVG(Balance) AS avg_balance,
     STDDEV(Balance) AS stddev_balance,
     VARIANCE(Balance) AS variance_balance
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 ;
 
 
@@ -102,7 +102,7 @@ SELECT
         WHEN Balance > 1000000 THEN 'suspiciously_high'
         ELSE 'valid'
     END AS validation_flag
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 )
 
 SELECT
@@ -119,7 +119,7 @@ ORDER BY 2 DESC
 SELECT
     MIN(NumOfProducts) AS min_numofproducts,
     MAX(NumOfProducts) AS max_numofproducts
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 ;
 
 
@@ -127,7 +127,7 @@ FROM `customerchurn2424.core.ChurnCore`
 
 SELECT
     COUNT(HasCrCard)
-FROM `customerchurn2424.core.ChurnCore`
+FROM `ChurnCore`
 WHERE HasCrCard IS NULL
     OR HasCrCard NOT IN (0, 1)
 ;
