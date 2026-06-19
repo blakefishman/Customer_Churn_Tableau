@@ -56,4 +56,10 @@ The full interactive dashboard can be found here.
 
 ## Recommendations
 
-* t
+* **Investigate state-level churn rates between the highest and lowest churning states to identify operational differences**. Targeted retention campaigns should be deployed for the highest churning states immediately, and successful strategies from low-churn states should be identified and adapted for high-churn states as well.
+
+* **Consider an onboarding program for customers under 25 due to their high churn**. Tailor the program to fit the habits and lifestyles of this 18-24 group, while also including staples like milestone rewards, in an effort to build loyalty during the critical first few months.
+
+* **Improve customer service experience to reduce complaint-driven churn**, such as implementing SLA-backed complaint resolutions to rebuild trust with pre-existing complaint customers and bolster customer confidence overall. Deploy new tracking systems & infrastructure if needed to properly identify customer service flaws.
+
+* **Analyze the structure of the Platinum tier's features** to determine if its true value is only actualized when a customer reaches four products , due to Platinum customers with four products churning at only 16.4%, compared to 25.3% for those with three. Customers may need four products to extract the full scope of the Platinum tier’s features. With three or less products, the tier's perceived utility may not outweigh the extra cost.
