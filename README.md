@@ -21,7 +21,7 @@ West Spokane Union is a small, hypothetical bank with 3,992 current customers lo
 t
 
 <div align="center">
-  <img width="700px" src="tttt" />
+  <img width="750px" src="https://github.com/user-attachments/assets/44120481-4417-4cf2-b0b9-9ccf127b35a8" />
 </div>
 The full interactive dashboard can be found here.
 
@@ -50,7 +50,7 @@ The full interactive dashboard can be found here.
 
 
 <div align="center">
-  <img width="700px" src="tttt" />
+  <img width="750px" src="https://github.com/user-attachments/assets/b4fb7195-2411-4dd8-9fcb-6a08d67541d4" />
 </div>
 The full interactive dashboard can be found here.
 
