@@ -25,6 +25,9 @@ t
 </div>
 The full interactive dashboard can be found here.
 
+
+
+
 ## Insights Deep-Dive
 
 * **Geographic concentration is one of the largest churn predictors**. U.S. states such as Georgia (29.8%), Minnesota (27.8%), and Oklahoma (26.3%) are the top churning states and have averages that are significantly above the average overall churn rate of 20.2%. Conversely, Washington (12.4%) and New York (14.2%) churn significantly below the average.
@@ -37,7 +40,6 @@ The full interactive dashboard can be found here.
    * Churned customers maintained significantly higher average account balances than those who were retained ($101,946 vs. $71,619), suggesting the churn here could also be driven by customers seeking higher-yield alternatives. However, customer complaints still appear to be a strong indicator of churn: Washington customers who filed at least one complaint were still much more likely to leave than those who did not.
 
 
-
 * **Customers under 25 churn the highest of any age group** at 25.7%, and may lack anchors for long-term loyalty. Conversely, customers 65 and over exhibit the lowest churn rate at 16.7%, but naturally form the smallest customer age cohort as well. These trends appear to reflect natural lifecycle differences: younger customers are still exploring options and forming loyalty ties, while older customers have loyalties that are deeply established.
 
 * **Customers who are both active and have filed at least one complaint churn the most** at 22.0%. Issues in quality or service may be enough to trigger churning, and their active engagement provides the means to exit.
@@ -48,11 +50,12 @@ The full interactive dashboard can be found here.
 * Overall customer trends show no significant differences in balance, tenure, credit score, or number of products between churned and retained customers.
 
 
-
 <div align="center">
   <img width="750px" src="https://github.com/user-attachments/assets/b4fb7195-2411-4dd8-9fcb-6a08d67541d4" />
 </div>
 The full interactive dashboard can be found here.
+
+
 
 ## Recommendations
 
