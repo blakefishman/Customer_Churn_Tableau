@@ -18,7 +18,9 @@ West Spokane Union is a small, hypothetical bank with 3,992 current customers lo
 
 
 ## Executive Summary
-t
+West Spokane Union's customer churn varies significantly by geography, making it one of the strongest predictors of churn, with high-churn states such as Georgia exhibiting elevated risk among specific segments both demographically and operationally. Customers under 25 and active customers who file complaints are some of the highest churners as well, while the Platinum tier exhibits an anomlous mid-tier spike in churn.
+
+Key recommendations focus on investigating this geographic variation, programs to bolster retention for customers under 25, reducing complaints, and reviewing the structure and value propositions of the Platinum tier.
 
 <div align="center">
   <img width="750px" src="https://github.com/user-attachments/assets/44120481-4417-4cf2-b0b9-9ccf127b35a8" />
