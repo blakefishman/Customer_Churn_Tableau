@@ -23,8 +23,6 @@ t
 <div align="center">
   <img width="750px" src="https://github.com/user-attachments/assets/44120481-4417-4cf2-b0b9-9ccf127b35a8" />
 </div>
-The full interactive dashboard can be found [here](https://public.tableau.com/views/CustomerChurnDashboard_17823371555900/Overview).
-
 
 
 
@@ -53,7 +51,6 @@ The full interactive dashboard can be found [here](https://public.tableau.com/vi
 <div align="center">
   <img width="750px" src="https://github.com/user-attachments/assets/b4fb7195-2411-4dd8-9fcb-6a08d67541d4" />
 </div>
-The full interactive dashboard can be found here.
 
 
 
