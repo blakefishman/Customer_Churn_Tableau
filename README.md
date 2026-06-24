@@ -13,7 +13,7 @@ West Spokane Union is a small, hypothetical bank with 3,992 current customers lo
 
 * The **SQL** queries used to examine the data and perform quality checks can be found [here](https://github.com/blakefishman/Customer_Churn_Tableau/blob/main/SQL%20Queries/Initial%20Data%20Checks%20and%20Examining.sql).
 
-* The **Tableau** customer churn interactive dashboard can be found [here](https://public.tableau.com/views/CustomerChurnDashboard_17823371555900/Overview).
+* The **Tableau dashboard** for the customer churn analysis can be found [here](https://public.tableau.com/views/CustomerChurnDashboard_17823371555900/Overview).
 
 
 
