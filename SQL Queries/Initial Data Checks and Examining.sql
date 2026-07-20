@@ -37,9 +37,9 @@ FROM `ChurnCore`
 -- 3) Empty check for strings
 
 SELECT
-    SUM(CASE WHEN State = '' THEN 1 ELSE 0 END) AS empty_count_state,
-    SUM(CASE WHEN Gender = '' THEN 1 ELSE 0 END) AS empty_count_gender,
-    SUM(CASE WHEN `Card Type` = '' THEN 1 ELSE 0 END) AS empty_count_card_type
+    SUM(CASE WHEN TRIM(State) = '' THEN 1 ELSE 0 END) AS empty_count_state,
+    SUM(CASE WHEN TRIM(Gender) = '' THEN 1 ELSE 0 END) AS empty_count_gender,
+    SUM(CASE WHEN TRIM(`Card Type`) = '' THEN 1 ELSE 0 END) AS empty_count_card_type
 FROM `ChurnCore`
 ;
 
